@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #9badfd;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #9badfd;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    width: 200px; /* Adjusted size */
+    height: 200px; /* Adjusted size */
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #8fa6f5; /* Adds a border matching the header */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
