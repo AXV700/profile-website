@@ -29,9 +29,29 @@ footer {
 img {
     display: block;
     margin: 10px auto;
-    width: 200px; /* Adjusted size */
-    height: 200px; /* Adjusted size */
-    border-radius: 50%; /* Makes the image circular */
-    border: 3px solid #8fa6f5; /* Adds a border matching the header */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    border: 3px solid #8fa6f5; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-text {
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #8fa6f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
