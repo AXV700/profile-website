@@ -55,3 +55,91 @@ img {
     border: 3px solid #8fa6f5;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+.technical-interests {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.technical-interests h2 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.interest h3 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.interest p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-me {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-me h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-content p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #8fa6f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.hobbies-interests {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hobbies-interests h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hobbies-interests p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
