@@ -57,3 +57,31 @@
     
 </section>
 
+<section>
+    <div class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>Project 1: Personal Website</h3>
+            <p>A responsive personal portfolio website showcasing my skills and projects.</p>
+            <button onclick="showPopup('project1')">More Info</button>
+            <a href="project1-details.html" class="details-link">View Details</a>
+        </div>
+        <div class="project">
+            <h3>Project 2: E-commerce App</h3>
+            <p>An e-commerce web application featuring a user-friendly interface and secure payment integration.</p>
+            <button onclick="showPopup('project2')">More Info</button>
+            <a href="project2-details.html" class="details-link">View Details</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </div>
+</section>
+
+<!-- Popup Modal -->
+<div id="popup-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <div id="popup-details"></div>
+    </div>
+</div>
+
+
