@@ -7,81 +7,74 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header style="background-color: #4A90E2; color: #fff; padding: 20px; text-align: center;">
         <h1>Welcome to My Profile</h1>
     </header>
     <main>
         <section>
-    <div class="about-me">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <p>Hi! My name is Armman Miah. I am currently in my second year, studying for a BSc (Hons) Computer Science degree. I am passionate about technology and enjoy exploring new opportunities to learn and grow in this field.</p>
-            <img src="images/placeholder.jpg" alt="Profile Picture" class="profile-img">
-        </div>
-    </div>
-</section>
+            <div class="about-me">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>Hi! My name is Armman Miah. I am currently in my second year, studying for a BSc (Hons) Computer Science degree. I am passionate about technology and enjoy exploring new opportunities to learn and grow in this field.</p>
+                    <img src="images/placeholder.jpg" alt="Profile Picture" class="profile-img">
+                </div>
+            </div>
+        </section>
 
-        
-<section>
-    <div class="hobbies-interests">
-        <h2>Hobbies & Interests</h2>
-        <p>I enjoy football and love to draw digitally! I also love to learn about new technology and work on exciting projects!</p>
-    </div>
-</section>
+        <section>
+            <div class="hobbies-interests">
+                <h2>Hobbies & Interests</h2>
+                <p>I enjoy football and love to draw digitally! I also love to learn about new technology and work on exciting projects!</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="technical-interests">
+                <h2>Technical Interests</h2>
+                <div class="interest">
+                    <img src="images/cybersecurity.jpg" alt="Cybersecurity Icon" class="interest-img">
+                    <div class="interest-text">
+                        <h3>Cybersecurity</h3>
+                        <p>I am passionate about learning how to secure digital assets and protect systems from potential threats. I enjoy exploring topics such as ethical hacking, cryptography, and network security. Understanding how vulnerabilities are exploited and implementing safeguards is a key area of interest for me.</p>
+                    </div>
+                </div>
+                <div class="interest">
+                    <img src="images/webdeveloper.jpg" alt="Web Development Icon" class="interest-img">
+                    <div class="interest-text">
+                        <h3>Web Development and Design</h3>
+                        <p>Building user-friendly websites with engaging designs is one of my primary interests. I enjoy working on both the front-end and back-end aspects of web development, utilizing technologies such as HTML, CSS, JavaScript, and frameworks like React. Creating visually appealing, accessible, and responsive websites is my goal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="portfolio">
+                <h2>Portfolio</h2>
+                <div class="project">
+                    <h3>Project: Personal Website</h3>
+                    <p>A responsive personal portfolio website showcasing my skills and projects.</p>
+                    <button onclick="showPopup('project1')">More Info</button>
+                    <a href="project1-details.html" class="details-link">View Details</a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
+
+    <footer style="background-color: #4A90E2; color: #fff; text-align: center; padding: 10px;">
         <p>&copy; 2024 Armman Miah. All rights reserved.</p>
     </footer>
+
+    <!-- Popup Modal -->
+    <div id="popup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <div id="popup-details"></div>
+        </div>
+    </div>
 </body>
 </html>
-<section>
-    <section>
-        <div class="technical-interests">
-            <h2>Technical Interests</h2>
-            <div class="interest">
-                <img src="images/cybersecurity.jpg" alt="Cybersecurity Icon" class="interest-img">
-                <div class="interest-text">
-                    <h3>Cybersecurity</h3>
-                    <p>I am passionate about learning how to secure digital assets and protect systems from potential threats. I enjoy exploring topics such as ethical hacking, cryptography, and network security. Understanding how vulnerabilities are exploited and implementing safeguards is a key area of interest for me.</p>
-                </div>
-            </div>
-            <div class="interest">
-                <img src="images/webdeveloper.jpg" alt="Web Development Icon" class="interest-img">
-                <div class="interest-text">
-                    <h3>Web Development and Design</h3>
-                    <p>Building user-friendly websites with engaging designs is one of my primary interests. I enjoy working on both the front-end and back-end aspects of web development, utilizing technologies such as HTML, CSS, JavaScript, and frameworks like React. Creating visually appealing, accessible, and responsive websites is my goal.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-</section>
 
-<section>
-    <div class="portfolio">
-        <h2>Portfolio</h2>
-        <div class="project">
-            <h3>Project 1: Personal Website</h3>
-            <p>A responsive personal portfolio website showcasing my skills and projects.</p>
-            <button onclick="showPopup('project1')">More Info</button>
-            <a href="project1-details.html" class="details-link">View Details</a>
-        </div>
-        <div class="project">
-            <h3>Project 2: E-commerce App</h3>
-            <p>An e-commerce web application featuring a user-friendly interface and secure payment integration.</p>
-            <button onclick="showPopup('project2')">More Info</button>
-            <a href="project2-details.html" class="details-link">View Details</a>
-        </div>
-        <!-- Add more projects as needed -->
-    </div>
-</section>
 
-<!-- Popup Modal -->
-<div id="popup-modal" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closePopup()">&times;</span>
-        <div id="popup-details"></div>
-    </div>
-</div>
 
 
